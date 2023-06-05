@@ -53,5 +53,7 @@ void pengarang::cetakPenerbit() {
 }
 
 
-
+int main() {
+	penerbit* VarPenerbit1 = new penerbit("Gama Press");
+	penerbit* VarPenerbit2 = new penerbit("Intan Pariwara");
 
