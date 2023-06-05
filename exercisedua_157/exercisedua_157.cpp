@@ -16,7 +16,16 @@ public:
 };
 
 class pengarang {
+public:
+	string nama_pengarang;
+	vector<penerbit*> daftar_penerbit;
+	pengarang(string pNama) : nama_pengarang(pNama) {
+		cout << "pengarang \"" << nama_pengarang << "\" \n";
+	}
 
+	void TambahPenerbit(penerbit*);
+	void cetakPenerbit();
+};
 
 
 
