@@ -38,6 +38,8 @@ void penerbit::cetakPengarang() {
 	cout << endl;
 }
 
+void pengarang::TambahPenerbit(penerbit* pPenerbit) {
+
 
 
 
