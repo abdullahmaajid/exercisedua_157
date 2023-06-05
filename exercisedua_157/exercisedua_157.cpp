@@ -15,5 +15,8 @@ public:
 	void cetakPengarang();
 };
 
+class pengarang {
+
+
 
 
