@@ -39,6 +39,11 @@ void penerbit::cetakPengarang() {
 }
 
 void pengarang::TambahPenerbit(penerbit* pPenerbit) {
+	daftar_penerbit.push_back(pPenerbit);
+	pPenerbit->TambahPengarang(this);
+
+}
+
 
 
 
