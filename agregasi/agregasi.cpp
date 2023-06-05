@@ -12,3 +12,7 @@ int main() {
 	buku* varBuku4 = new buku("Dasar Pemograman");
 	buku* varBuku5 = new buku("Matematika");
 	buku* varBuku6 = new buku("Multimedia 1");
+	pengarang* varPengarang1 = new pengarang("Joko");
+	pengarang* varPengarang2 = new pengarang("Lia");
+	pengarang* varPengarang3 = new pengarang("Asroni");
+	pengarang* varPengarang4 = new pengarang("Giga");
