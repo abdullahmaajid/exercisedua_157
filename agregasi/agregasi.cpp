@@ -25,10 +25,10 @@ int main() {																// progam utama
 	varPengarang4->tambahJudulBuku(varBuku6);								// pengarang4 mengarang judulbuku6
 
 
-	varPengarang1->cetakJudulBuku();
-	varPengarang2->cetakJudulBuku();
-	varPengarang3->cetakJudulBuku();
-	varPengarang4->cetakJudulBuku();
+	varPengarang1->cetakJudulBuku();										// cetak judul buku yang pengarang 1 tulis
+	varPengarang2->cetakJudulBuku();										// cetak judul buku yang pengarang 2 tulis
+	varPengarang3->cetakJudulBuku();										// cetak judul buku yang pengarang 3 tulis
+	varPengarang4->cetakJudulBuku();										// cetak judul buku yang pengarang 4 tulis
 
 	return 0;
 
