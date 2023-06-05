@@ -69,3 +69,10 @@ int main() {
 	VarPengarang1->TambahPenerbit(VarPenerbit1);
 	VarPengarang1->TambahPenerbit(VarPenerbit2);
 
+	VarPenerbit1->cetakPengarang();
+	VarPenerbit2->cetakPengarang();
+	VarPengarang1->cetakPenerbit();
+
+
+	return 0;
+}
