@@ -17,6 +17,12 @@ public:
 void pengarang::tambahJudulBuku(buku* pBuku) {
 	daftar_buku.push_back(pBuku);
 }
-
+void pengarang::cetakJudulBuku() {
+	cout << "daftar buku yang dikarang \"" << this->nama_pengarang << "\":\n";
+	for (auto& a : daftar_buku) {
+		cout << a->judul_buku << "\n";
+	}
+	cout << endl;
+}
 
 #endif
