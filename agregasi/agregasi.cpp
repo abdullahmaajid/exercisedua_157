@@ -23,3 +23,13 @@ int main() {
 	varPengarang3->tambahJudulBuku(varBuku4);
 	varPengarang4->tambahJudulBuku(varBuku5);
 	varPengarang4->tambahJudulBuku(varBuku6);
+
+
+	varPengarang1->cetakJudulBuku();
+	varPengarang2->cetakJudulBuku();
+	varPengarang3->cetakJudulBuku();
+	varPengarang4->cetakJudulBuku();
+
+	return 0;
+
+}
