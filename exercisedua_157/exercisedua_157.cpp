@@ -31,9 +31,9 @@ void penerbit::TambahPengarang(pengarang* pPengarang) {											// objek penga
 	daftar_pengarang.push_back(pPengarang);														// progam supaya data baru yang diinputkan selalu berada di akhir
 }
 void penerbit::cetakPengarang() {																// mensinkronkan antara cetakPengarang dan penerbit
-	cout << "\nDaftar pengarang yang menaungi penerbit \"" << this->nama_penerbit << "\":\n";	// menampilkan daftar pengarang, this parameter pointer untuk nama penerbit
+	cout << "\nDaftar pengarang yang menaungi penerbit \"" << this->nama_penerbit << "\":\n";	// menampilkan daftar pengarang, this = nama pengarang dan menjadi parameter pointer untuk memanggil nama penerbit
 	for (auto& a : daftar_pengarang) {															// perulangan for dengan parameter a = daftar nama pengarang
-		cout << a->nama_pengarang << "\n";														// menampilkan parameter pointer a = nama pengarang
+		cout << a->nama_pengarang << "\n";														// menampilkan a = daftar pengarang dan parameter pointer a = nama pengarang
 	}
 	cout << endl;																				// tampilkan
 }
@@ -45,7 +45,7 @@ void pengarang::TambahPenerbit(penerbit* pPenerbit) {											// objek penerbi
 }
 
 void pengarang::cetakPenerbit() {																// menskinkronkan antara cetakpenerbit dengan pengarang
-	cout << "Daftar penerbit yang diikuti pengarang \"" << this->nama_pengarang << "\":\n";		// menampilkan daftar penerbit yang diikuti dengan memanggil this = nama pengarangnya
+	cout << "Daftar penerbit yang diikuti pengarang \"" << this->nama_pengarang << "\":\n";		// menampilkan daftar penerbit yang diikuti, this = nama penerbit dan menjadi parameter pointer untuk memanggil this = nama penerbit
 	for (auto& a : daftar_penerbit) {															// pengulangan for untuk parameter a = daftar nama penerbit
 		cout << a->nama_penerbit << "\n";
 	}
