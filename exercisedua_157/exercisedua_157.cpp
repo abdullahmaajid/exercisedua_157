@@ -31,7 +31,7 @@ void penerbit::TambahPengarang(pengarang* pPengarang) {
 	daftar_pengarang.push_back(pPengarang);
 }
 void penerbit::cetakPengarang() {
-	cout << "\nDaftar pengarang yang memanage penerbit \"" << this->nama_penerbit << "\":\n";
+	cout << "\nDaftar pengarang yang menaungi penerbit \"" << this->nama_penerbit << "\":\n";
 	for (auto& a : daftar_pengarang) {
 		cout << a->nama_pengarang << "\n";
 	}
@@ -45,12 +45,13 @@ void pengarang::TambahPenerbit(penerbit* pPenerbit) {
 }
 
 void pengarang::cetakPenerbit() {
-	cout << "Daftar penerbit yang di manage \"" << this->nama_pengarang << "\":\n";
+	cout << "Daftar penerbit yang dinaungi pengarang \"" << this->nama_pengarang << "\":\n";
 	for (auto& a : daftar_penerbit) {
 		cout << a->nama_penerbit << "\n";
 	}
 	cout << endl;
 }
+
 
 
 
