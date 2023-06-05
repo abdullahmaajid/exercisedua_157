@@ -1,6 +1,8 @@
 #pragma once																	// 
 #ifndef PENGARANG_H																// mengecek duplikasi
 #define PENGARANG_H																// mengecek duplikasi
+#include <iostream>
+#include <vector>
 
 class pengarang {																// menambahkan class pengarang
 public:																			// akses modifier public
