@@ -30,7 +30,13 @@ public:
 void penerbit::TambahPengarang(pengarang* pPengarang) {
 	daftar_pengarang.push_back(pPengarang);
 }
-
+void penerbit::cetakPengarang() {
+	cout << "\nDaftar pengarang pada penerbit \"" << this->nama_penerbit << "\":\n";
+	for (auto& a : daftar_pengarang) {
+		cout << a->nama_pengarang << "\n";
+	}
+	cout << endl;
+}
 
 
 
