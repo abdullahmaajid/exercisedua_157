@@ -28,6 +28,9 @@ public:
 };
 
 void penerbit::TambahPengarang(pengarang* pPengarang) {
+	daftar_pengarang.push_back(pPengarang);
+}
+
 
 
 
