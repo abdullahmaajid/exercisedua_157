@@ -2,4 +2,6 @@
 #ifndef PENGARANG_H
 #define PENGARANG_H
 
+class pengarang {
+
 #endif
