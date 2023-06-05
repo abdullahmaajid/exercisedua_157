@@ -1,17 +1,17 @@
 #pragma once
-#ifndef BUKU_H
-#define BUKU_H
+#ifndef BUKU_H																// cek duplikasi
+#define BUKU_H																// cek duplikasi
 
-class buku {
-public:
-	string judul_buku;
-	vector <pengarang*> daftar_pengarang;
+class buku {																// membuat class buku
+public:																		// akses modifier public
+	string judul_buku;														// tipe data string untuk judul buku
+	vector <pengarang*> daftar_pengarang;									// membuat daftar pengarang dengan menggunakan vector
 
-	buku(string pJudul) :judul_buku(pJudul) {
+	buku(string pJudul) :judul_buku(pJudul) {								// constructor. membuat objek buku dengan parameter pJudul untuk judul buku
 
 	}
-	void tambahPengarang(pengarang*);
-	void cetakpengarang();
+	void tambahPengarang(pengarang*);										// metod untuk tambah pengarang dengan parameter pengarang
+	void cetakpengarang();													// metod cetak pengarang
 };
 
 #endif 
