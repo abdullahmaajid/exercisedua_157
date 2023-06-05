@@ -27,5 +27,8 @@ public:
 	void cetakPenerbit();
 };
 
+void penerbit::TambahPengarang(pengarang* pPengarang) {
+
+
 
 
