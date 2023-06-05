@@ -44,6 +44,7 @@ void pengarang::TambahPenerbit(penerbit* pPenerbit) {
 
 }
 
+void pengarang::cetakPenerbit() {
 
 
 
