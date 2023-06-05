@@ -4,3 +4,5 @@ using namespace std;														// menggunakan namespace standar
 
 #include "buku.h"
 #include "pengarang.h"
+
+int main() {
