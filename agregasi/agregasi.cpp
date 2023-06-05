@@ -16,3 +16,10 @@ int main() {
 	pengarang* varPengarang2 = new pengarang("Lia");
 	pengarang* varPengarang3 = new pengarang("Asroni");
 	pengarang* varPengarang4 = new pengarang("Giga");
+
+	varPengarang1->tambahJudulBuku(varBuku1);
+	varPengarang1->tambahJudulBuku(varBuku2);
+	varPengarang2->tambahJudulBuku(varBuku3);
+	varPengarang3->tambahJudulBuku(varBuku4);
+	varPengarang4->tambahJudulBuku(varBuku5);
+	varPengarang4->tambahJudulBuku(varBuku6);
