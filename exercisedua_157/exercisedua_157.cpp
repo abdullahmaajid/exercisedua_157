@@ -61,3 +61,9 @@ int main() {
 	pengarang* VarPengarang3 = new pengarang("Ansori");
 	pengarang* Varpengarang4 = new pengarang("Lia");
 
+	VarPenerbit1->TambahPengarang(VarPengarang2);
+	VarPenerbit1->TambahPengarang(Varpengarang4);
+	VarPenerbit1->TambahPengarang(VarPengarang1);
+	VarPenerbit2->TambahPengarang(VarPengarang3);
+	VarPenerbit2->TambahPengarang(VarPengarang1);
+
