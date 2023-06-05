@@ -14,4 +14,9 @@ public:
 	void cetakJudulBuku();
 };
 
+void pengarang::tambahJudulBuku(buku* pBuku) {
+	daftar_buku.push_back(pBuku);
+}
+
+
 #endif
