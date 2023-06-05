@@ -66,4 +66,6 @@ int main() {
 	VarPenerbit1->TambahPengarang(VarPengarang1);
 	VarPenerbit2->TambahPengarang(VarPengarang3);
 	VarPenerbit2->TambahPengarang(VarPengarang1);
+	VarPengarang1->TambahPenerbit(VarPenerbit1);
+	VarPengarang1->TambahPenerbit(VarPenerbit2);
 
