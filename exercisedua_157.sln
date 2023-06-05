@@ -5,6 +5,8 @@ VisualStudioVersion = 17.5.33502.453
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "exercisedua_157", "exercisedua_157\exercisedua_157.vcxproj", "{DB0E01E7-1D23-4F97-AA8E-11CE5C20DD2F}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "agregasi", "agregasi\agregasi.vcxproj", "{B9D34E37-2B61-4B0E-856B-D787B65A8B2F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|arm64 = Debug|arm64
@@ -27,6 +29,18 @@ Global
 		{DB0E01E7-1D23-4F97-AA8E-11CE5C20DD2F}.Release|x64.Build.0 = Release|x64
 		{DB0E01E7-1D23-4F97-AA8E-11CE5C20DD2F}.Release|x86.ActiveCfg = Release|Win32
 		{DB0E01E7-1D23-4F97-AA8E-11CE5C20DD2F}.Release|x86.Build.0 = Release|Win32
+		{B9D34E37-2B61-4B0E-856B-D787B65A8B2F}.Debug|arm64.ActiveCfg = Debug|arm64
+		{B9D34E37-2B61-4B0E-856B-D787B65A8B2F}.Debug|arm64.Build.0 = Debug|arm64
+		{B9D34E37-2B61-4B0E-856B-D787B65A8B2F}.Debug|x64.ActiveCfg = Debug|x64
+		{B9D34E37-2B61-4B0E-856B-D787B65A8B2F}.Debug|x64.Build.0 = Debug|x64
+		{B9D34E37-2B61-4B0E-856B-D787B65A8B2F}.Debug|x86.ActiveCfg = Debug|Win32
+		{B9D34E37-2B61-4B0E-856B-D787B65A8B2F}.Debug|x86.Build.0 = Debug|Win32
+		{B9D34E37-2B61-4B0E-856B-D787B65A8B2F}.Release|arm64.ActiveCfg = Release|arm64
+		{B9D34E37-2B61-4B0E-856B-D787B65A8B2F}.Release|arm64.Build.0 = Release|arm64
+		{B9D34E37-2B61-4B0E-856B-D787B65A8B2F}.Release|x64.ActiveCfg = Release|x64
+		{B9D34E37-2B61-4B0E-856B-D787B65A8B2F}.Release|x64.Build.0 = Release|x64
+		{B9D34E37-2B61-4B0E-856B-D787B65A8B2F}.Release|x86.ActiveCfg = Release|Win32
+		{B9D34E37-2B61-4B0E-856B-D787B65A8B2F}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
